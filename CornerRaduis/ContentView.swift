@@ -14,7 +14,7 @@ struct customeCornerRaduiss: View {
             Text("CornerRadius")
                 .foregroundStyle(.black)
                 .padding()
-                .customeCornerRaduis(topLeading: 20, bottomLeading: 0.0, bottomTrailing: 20, topTrailing: 20, color: .red)
+                .customeCornerRaduis(topLeading: 20, bottomLeading: 20.0, bottomTrailing: 20,color: .red)
                 
             
         }
@@ -23,7 +23,7 @@ struct customeCornerRaduiss: View {
 }
 
 extension View {
-    func customeCornerRaduis(topLeading: CGFloat?,bottomLeading: CGFloat?,bottomTrailing: CGFloat?,topTrailing: CGFloat?,color: Color?) -> some View {
+    func customeCornerRaduis(topLeading: CGFloat? = 0.0,bottomLeading: CGFloat? = 0.0,bottomTrailing: CGFloat? = 0.0,topTrailing: CGFloat? = 0.0,color: Color? = .clear) -> some View {
         modifier(CustomeCornerRaduis(topLeading: topLeading,bottomLeading: bottomLeading,bottomTrailing: bottomTrailing,topTrailing: topTrailing,color: color))
     }
 }
