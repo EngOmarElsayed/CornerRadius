@@ -5,8 +5,9 @@ But when I used .cornerRadius() Modifier in the past, I always asked my self wha
 
 So I decided to build it, a modifier where you can specify the corner you want to edit and live the rest and to add some cherry 🍒 on the top, You also can specify the color of the background, without having the need to specify the cornerRadius and use another modifier to edit the background with it. All in one modifier.
 
-<img width="320" alt="Screenshot 2023-11-26 at 5 05 16 PM" src="https://github.com/EngOmarElsayed/CornerRadius/assets/125718818/b244d62d-6ac7-4bb8-964d-4bb8229b5722">
+<img width="300" alt="Screenshot 2023-11-26 at 5 06 59 PM" src="https://github.com/EngOmarElsayed/CornerRadius/assets/125718818/4cbee71d-1237-4bf7-8e1b-d7a03becc3e9">
+<img width="305" alt="Screenshot 2023-11-26 at 5 07 30 PM" src="https://github.com/EngOmarElsayed/CornerRadius/assets/125718818/6a89cb48-cccb-4b97-87dc-deec34dcb2e1">
+<img width="300" alt="Screenshot 2023-11-26 at 5 07 18 PM" src="https://github.com/EngOmarElsayed/CornerRadius/assets/125718818/cb36dc0e-2154-4a0c-aa50-16d52d4427d1">
 
-<img width="320" alt="CornerRadius Modifier" src="https://github.com/EngOmarElsayed/CornerRadius/assets/125718818/36bd9830-f42d-4b40-8365-8579a357a242">
 
 Last this I want to say is: Thank you Apple for challenging me ☺️
